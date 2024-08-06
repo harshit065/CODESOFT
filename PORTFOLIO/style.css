@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+}
+/* font-family: "Kalam", cursive; */
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(images/banner1.jpg);
+    background-size: cover;
+    color: white;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    font-size: 3em;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 0.5rem 1rem;
+    transition: 2s;
+}
+.menu a:nth-child(5){
+    background: #6ab04c;
+    border-radius: 8px;
+    margin: 0 1rem;
+}
+.menu i{
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+.menu a:hover{
+    background: #6ab04c;
+    border-radius: 7px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+
+.left{
+    flex-basis: 70%;
+}
+.right{
+    flex-basis: 30%;
+}
+
+.left h2{
+    font-family: 'Poppins', sans-serif;
+    color: #6ab04c;
+
+}
+.left h1{
+     font-family: "Kalam", cursive;
+     font-size: 4rem;
+
+}
+.left p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 2.5rem;
+    font-size: 2rem;
+}
+#Hire{
+    text-decoration: none;
+    background: orange;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
+#myp{
+    text-decoration: none;
+    background: orange;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    border: 1px dashed;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
+
+#bio{
+    cursor: pointer;
+    padding: 150px 70px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.leftbio{
+    flex-basis: 40%;
+}
+.rightbio{
+    flex-basis: 60%;
+    text-align: right;
+    padding: 0 40px;
+    
+}
+.leftbio img{
+    width: 82%;
+    height: 959px;
+    border-radius: 8px;
+}
+.rightbio p{
+    margin: 18px 0;
+    line-height: 3.5rem;
+    font-size: 2rem;
+    color: white;
+}
+.rightbio h1{
+    font-size: 2.5rem;
+    color: white;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+#follow{
+    text-align: center;
+}
+#follow i{
+    color: orangered;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+
+.link-h{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+#cv{
+    text-decoration: none;
+    color: orangered;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    border: 1px dashed;
+}
+
+#services{
+    padding: 50px 70px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.02);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.intro h1{
+    font-size: 3rem;
+}
+.card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+.cardbody{
+    flex-basis: 30%;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.cardbody h3{
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+ .cardbody i{
+    font-size: 2.5rem;
+    color: orangered;
+ }
+
+ .carding img{
+    width: 100%;
+ 
+ }
+
+ footer{
+    background: orangered;
+    color: white;
+    font-size:2rem ;
+    padding: 0.5rem;
+ }
+
+ #bio{
+    background: url(images/anas-alshanti-feXpdV001o4-unsplash.jpg);
+    font-weight: bold ;
+ }
+ .right img{
+    width: 100%;
+    height: 100%;
+ }
+
+ .left h2{
+    font-size: 2.5rem;
+ }
+ 
+ 
+
+ .left{
+    animation-delay: 1s;
+ }
+ #services{
+    background: url(images/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg);
+ }
+ .intro h1{
+    color: white;
+ }
+
+ .cardbody p{
+    color: black;
+ }
+
+.card{
+    background: black;
+}
+.right img{
+    box-shadow: 5px 5px 5px  blueviolet;
+}
+.cardbody:hover{
+    background-color: rgb(219, 14, 14);
+    border-radius: 20px;
+}
